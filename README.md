@@ -17,7 +17,7 @@ node0 = Node(0, 0)
 node1 = Node(5, 5)
 
 # Compute the next step within a distance limit of 3 units
-next_step = step_from_to(node0, node1, limit=3)
+next_step = bellande_step_2d(node0, node1, limit=3)
 
 # Output the coordinates of the next step
 print("Next Step Coordinates:", next_step.coord) 
@@ -37,7 +37,7 @@ node0 = Node(0, 0, 0)
 node1 = Node(5, 5, 5)
 
 # Compute the next step within a distance limit of 3 units
-next_step = step_from_to_3d(node0, node1, limit=3)
+next_step = bellande_step_3d(node0, node1, limit=3)
 
 # Output the coordinates of the next step
 print("Next Step Coordinates:", next_step.coord)
