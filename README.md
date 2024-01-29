@@ -13,8 +13,8 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define the nodes
-node0 = Node(0, 0)
-node1 = Node(5, 5)
+node0 = Node2D(0, 0)
+node1 = Node2D(5, 5)
 
 # Compute the next step within a distance limit of 3 units
 next_step = bellande_step_2d(node0, node1, limit=3)
@@ -33,8 +33,8 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define the nodes
-node0 = Node(0, 0, 0)
-node1 = Node(5, 5, 5)
+node0 = Node3D(0, 0, 0)
+node1 = Node3D(5, 5, 5)
 
 # Compute the next step within a distance limit of 3 units
 next_step = bellande_step_3d(node0, node1, limit=3)
