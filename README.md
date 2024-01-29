@@ -3,7 +3,7 @@
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`
 
-### Usage 2D Space
+## Usage 2D Space
 
 Suppose you have two nodes representing positions in a 2D space:
 - `node0` at coordinates `(0, 0)`
