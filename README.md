@@ -1,6 +1,5 @@
 # 📦 Bellande Step
 
-
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`
 
@@ -64,7 +63,7 @@ print("Next Step Coordinates:", next_step.coord)
 
 ```
 Name: bellande_robot_step
-Version: 0.0.1
+Version: 0.1.0
 Summary: Computes the next step towards a target node
 Home-page: github.com/RonaldsonBellande/bellande_robot_step
 Author: Ronaldson Bellande
