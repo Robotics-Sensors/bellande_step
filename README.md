@@ -12,6 +12,9 @@ Suppose you have two nodes representing positions in a 2D space:
 You want to compute the next step from `node0` towards `node1` while limiting the maximum distance to 3 units.
 
 ```python
+# Define Import 
+from bellande_robot_step.bellande_robot_step_2d import bellande_step_2d, Node2D
+
 # Define the nodes
 node0 = Node2D(0, 0)
 node1 = Node2D(5, 5)
@@ -32,6 +35,9 @@ Suppose you have two nodes representing positions in a 3D space:
 You want to compute the next step from `node0` towards `node1` while limiting the maximum distance to 3 units.
 
 ```python
+# Define Import 
+from bellande_robot_step.bellande_robot_step_2d import bellande_step_2d, Node2D 
+
 # Define the nodes
 node0 = Node3D(0, 0, 0)
 node1 = Node3D(5, 5, 5)
