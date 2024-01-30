@@ -13,7 +13,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_robot_step.bellande_robot_step_2d import bellande_step_3d, Node3D
+from bellande_robot_step.bellande_robot_step_2d import bellande_step_2d, Node2D
 
 # Define the nodes
 node0 = Node2D(0, 0)
@@ -67,9 +67,12 @@ print("Next Step Coordinates:", next_step.coord)
 ### Installation
 - `$ pip install bellande_robot_step`
 
+### Upgrade (if not upgraded)
+- `$ pip install --upgrade bellande_robot_step`
+
 ```
 Name: bellande_robot_step
-Version: 0.2.3
+Version: 0.2.4
 Summary: Computes the next step towards a target node
 Home-page: github.com/RonaldsonBellande/bellande_robot_step
 Author: Ronaldson Bellande
