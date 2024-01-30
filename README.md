@@ -36,7 +36,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_robot_step.bellande_robot_step_2d import bellande_step_3d, Node3D 
+from bellande_robot_step.bellande_robot_step_3d import bellande_step_3d, Node3D 
 
 # Define the nodes
 node0 = Node3D(0, 0, 0)
