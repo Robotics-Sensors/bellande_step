@@ -1,5 +1,8 @@
 # 📦 Bellande Step
 
+# API in api_docs
+- Temporarily Disabled
+
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`
 
@@ -62,7 +65,7 @@ print("Next Step Coordinates:", next_step.coord)
 
 
 ## Website
-- https://pypi.org/project/bellande_robot_step/
+- https://pypi.org/project/bellande_robot_step
 
 ### Installation
 - `$ pip install bellande_robot_step`
