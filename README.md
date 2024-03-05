@@ -4,7 +4,7 @@
 - https://robotics-sensors.github.io/
 
 # API in api_docs
-- Temporarily Enabled
+- Enabled
 
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`
