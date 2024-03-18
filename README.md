@@ -5,6 +5,7 @@
 - Check out website for more information avaliable open-source API 
 
 # API in api_docs
+<<<<<<< HEAD
 - Temporarily Enabled
 - 2D Space
 - 3D Space
@@ -16,6 +17,9 @@
 - 9D Space
 - 10D Space
 
+=======
+- Enabled
+>>>>>>> 7676a49f005c6de757cf1e3bddba5e45a1ac7160
 
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`
