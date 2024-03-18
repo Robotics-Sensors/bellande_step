@@ -1,10 +1,21 @@
 # 📦 Bellande Step
 
-# Check Out Research Organization for opensource/semi-opensource API
-- https://robotics-sensors.github.io/
+# Check Out Research Organization for open-source/semi-open-source API
+- https://robotics-sensors.github.io
+- Check out website for more information avaliable open-source API 
 
 # API in api_docs
 - Temporarily Enabled
+- 2D Space
+- 3D Space
+- 4D Space
+- 5D Space
+- 6D Space
+- 7D Space
+- 8D Space
+- 9D Space
+- 10D Space
+
 
 ### ✔️ confirmed versions
 - `The step function efficiently computes the next step towards a target node within a specified distance limit.`

@@ -1,5 +1,13 @@
 # API Usage Examples
 
+# Payload Example
+```
+payload = {
+    "node0": {"x": x1, "y": y1},
+    "node1": {"x": x2, "y": y2}
+}
+```
+
 ## Python Example:
 ```python
 
@@ -27,7 +35,7 @@ headers = {
 # Make POST request
 try:
     response = requests.post(
-        'https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=' + str(limit),
+        'https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=' + str(limit),
         json=payload,
         headers=headers
     )
@@ -97,7 +105,7 @@ int main() {
 
         // Construct URL with query parameter
         char *url;
-        asprintf(&url, "https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=%d", limit);
+        asprintf(&url, "https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=%d", limit);
 
         // Set libcurl options
         curl_easy_setopt(curl, CURLOPT_URL, url);
@@ -199,7 +207,7 @@ int main() {
         std::string payload = "{\"node0\":{\"x\":" + std::to_string(x1) + ",\"y\":" + std::to_string(y1) + "},\"node1\":{\"x\":" + std::to_string(x2) + ",\"y\":" + std::to_string(y2) + "}}";
 
         // Construct URL with query parameter
-        std::string url = "https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=" + std::to_string(limit);
+        std::string url = "https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=" + std::to_string(limit);
 
         // Response data
         struct MemoryStruct chunk;
@@ -266,7 +274,7 @@ public class Main {
         try {
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
-                    .uri(URI.create("https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=" + limit))
+                    .uri(URI.create("https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=" + limit))
                     .header("Content-Type", "application/json")
                     .header("Accept", "application/json")
                     .POST(HttpRequest.BodyPublishers.ofString(payload.toString()))
@@ -318,7 +326,7 @@ const requestOptions = {
 };
 
 // Make POST request
-fetch(`https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=${limit}`, requestOptions)
+fetch(`https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=${limit}`, requestOptions)
     .then(response => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -357,7 +365,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Make POST request
     let client = reqwest::Client::new();
     let response = client
-        .post("https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d")
+        .post("https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d")
         .query(&[("limit", &limit.to_string())])
         .json(&payload)
         .send()
@@ -416,7 +424,7 @@ func main() {
 	}
 
 	// Make POST request
-	url := fmt.Sprintf("https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=%d", limit)
+	url := fmt.Sprintf("https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=%d", limit)
 	req, err := http.NewRequest("POST", url, bytes.NewBuffer(payloadBytes))
 	if err != nil {
 		fmt.Println("Error creating request:", err)
@@ -485,7 +493,7 @@ guard let payloadData = try? JSONSerialization.data(withJSONObject: payload) els
 }
 
 // Request URL
-let urlString = "https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit=\(limit)"
+let urlString = "https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit=\(limit)"
 guard let url = URL(string: urlString) else {
     print("Error creating URL.")
     exit(1)
@@ -573,7 +581,7 @@ class Program
 
         // Make POST request
         using var client = new HttpClient();
-        var url = $"https://bellanderoboticssensorsresearchinnovationcenterapi-7xm5pkao.b4a.run/Bellande_Step/bellande_step_2d?limit={limit}";
+        var url = $"https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_2d?limit={limit}";
         try
         {
             var response = await client.PostAsync(url, content);
