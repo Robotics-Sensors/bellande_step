@@ -1,4 +1,5 @@
 # 📦 Bellande Step
+## BS(Bellande Step) Algorithm API
 
 # Check Out Research Organization for open-source/semi-open-source API
 - https://robotics-sensors.github.io
@@ -99,5 +100,5 @@ Requires: numpy
 Required-by:
 ```
 
-### License
-This Package is distributed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), see [LICENSE](https://github.com/RonaldsonBellande/bellande_robot_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_robot_step/blob/main/LICENSE) for more information.
+## License
+This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_robots_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_robots_step/blob/main/LICENSE) for more information.
