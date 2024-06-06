@@ -2,35 +2,39 @@
 ## BS(Bellande Step) Algorithm API
 
 
-## Experiment 1
+## Experiment 1 -- Limit = 1
 
 | ![2D](graphs_charts/graph_charts_1/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_1/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_1/4D_Space.png) *Figure 4D* |
 |:------------------------------------------------------------:|:------------------------------------------------------------:|:------------------------------------------------------------:|
 | ![5D](graphs_charts/graph_charts_1/5D_Space.png) *Figure 5D* | ![6D](graphs_charts/graph_charts_1/6D_Space.png) *Figure 6D* | ![7D](graphs_charts/graph_charts_1/7D_Space.png) *Figure 7D* |
 | ![8D](graphs_charts/graph_charts_1/8D_Space.png) *Figure 8D* | ![9D](graphs_charts/graph_charts_1/9D_Space.png) *Figure 9D* | ![10D](graphs_charts/graph_charts_1/10D_Space.png) *Figure 10D* |
 
-## Experiment 2
+
+## Experiment 2 -- Limit = 25
 
 | ![2D](graphs_charts/graph_charts_25/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_25/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_25/4D_Space.png) *Figure 4D* |
 |:-------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
 | ![5D](graphs_charts/graph_charts_25/5D_Space.png) *Figure 5D* | ![6D](graphs_charts/graph_charts_25/6D_Space.png) *Figure 6D* | ![7D](graphs_charts/graph_charts_25/7D_Space.png) *Figure 7D* |
 | ![8D](graphs_charts/graph_charts_25/8D_Space.png) *Figure 8D* | ![9D](graphs_charts/graph_charts_25/9D_Space.png) *Figure 9D* | ![10D](graphs_charts/graph_charts_25/10D_Space.png) *Figure 10D* |
 
-## Experiment 3
+
+## Experiment 3 -- Limit = 50
 
 | ![2D](graphs_charts/graph_charts_50/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_50/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_50/4D_Space.png) *Figure 4D* |
 |:-------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
 | ![5D](graphs_charts/graph_charts_50/5D_Space.png) *Figure 5D* | ![6D](graphs_charts/graph_charts_50/6D_Space.png) *Figure 6D* | ![7D](graphs_charts/graph_charts_50/7D_Space.png) *Figure 7D* |
 | ![8D](graphs_charts/graph_charts_50/8D_Space.png) *Figure 8D* | ![9D](graphs_charts/graph_charts_50/9D_Space.png) *Figure 9D* | ![10D](graphs_charts/graph_charts_50/10D_Space.png) *Figure 10D* |
 
-## Experiment 4
+
+## Experiment 4 -- Limit = 75
 
 | ![2D](graphs_charts/graph_charts_75/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_75/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_75/4D_Space.png) *Figure 4D* |
 |:-------------------------------------------------------------:|:-------------------------------------------------------------:|:-------------------------------------------------------------:|
 | ![5D](graphs_charts/graph_charts_75/5D_Space.png) *Figure 5D* | ![6D](graphs_charts/graph_charts_75/6D_Space.png) *Figure 6D* | ![7D](graphs_charts/graph_charts_75/7D_Space.png) *Figure 7D* |
 | ![8D](graphs_charts/graph_charts_75/8D_Space.png) *Figure 8D* | ![9D](graphs_charts/graph_charts_75/9D_Space.png) *Figure 9D* | ![10D](graphs_charts/graph_charts_75/10D_Space.png) *Figure 10D* |
 
-## Experiment 5
+
+## Experiment 5 -- Limit = 100
 
 | ![2D](graphs_charts/graph_charts_100/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_100/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_100/4D_Space.png) *Figure 4D* |
 |:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|
