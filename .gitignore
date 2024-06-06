@@ -2,6 +2,4 @@ publish.sh
 src
 tests
 setup.py
-pyproject.toml
 dist
-header_imports.py
