@@ -1,7 +1,25 @@
 # 📦 Bellande Step
-## BS(Bellande Step) Algorithm API
 
+# API Usability
+```
+{
+  "url": "https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run",
+  "endpoint_path": {
+    "2d": "/api/Bellande_Step/bellande_step_2d",
+    "3d": "/api/Bellande_Step/bellande_step_3d",
+    "4d": "/api/Bellande_Step/bellande_step_4d",
+    "5d": "/api/Bellande_Step/bellande_step_5d",
+    "6d": "/api/Bellande_Step/bellande_step_6d",
+    "7d": "/api/Bellande_Step/bellande_step_7d",
+    "8d": "/api/Bellande_Step/bellande_step_8d",
+    "9d": "/api/Bellande_Step/bellande_step_9d",
+    "10d": "/api/Bellande_Step/bellande_step_10d"
+  },
+  "Bellande_Framework_Access_Key": "bellande_web_api_opensource"
+}
+```
 
+# BS(Bellande Step) Algorithm API
 ## Experiment 1 -- Limit = 1
 
 | ![2D](graphs_charts/graph_charts_1/2D_Space.png) *Figure 2D* | ![3D](graphs_charts/graph_charts_1/3D_Space.png) *Figure 3D* | ![4D](graphs_charts/graph_charts_1/4D_Space.png) *Figure 4D* |
@@ -48,7 +66,7 @@
 - Check out website for more information avaliable open-source API 
 
 # API in api_docs
-- Temporarily Enabled
+- Temporarily Enabled for OpenSource
 - 2D Space
 - 3D Space
 - 4D Space
@@ -58,6 +76,7 @@
 - 8D Space
 - 9D Space
 - 10D Space
+
 
 # Can also checkout portion of the docs at [Portion API DOCS](https://github.com/Robotics-Sensors/bellande_robots_step/blob/main/api_docs.md)
 ### ✔️ confirmed versions
