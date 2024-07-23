@@ -1,4 +1,4 @@
-# 📦 Bellande Step
+# 📦 Bellande Step (Infinite Dimentions)
 
 # API Usability
 ```
