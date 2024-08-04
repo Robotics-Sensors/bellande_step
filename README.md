@@ -23,6 +23,23 @@
 }
 ```
 
+# Quick APi Testing
+```
+curl -X 'POST' \
+  'https://bellanderoboticssensorsresearchinnovationcenterwebsite-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_nd' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "node0": [0, 0, 0],
+    "node1": [100, 100, 100],
+    "limit": 75,
+    "dimensions": 3,
+    "auth": {
+      "authorization_key": "bellande_web_api_opensource"
+    }
+  }'
+```
+
 # BS(Bellande Step) Algorithm API
 ## Experiment 1 -- Limit = 1
 
