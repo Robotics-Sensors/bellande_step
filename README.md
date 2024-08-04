@@ -23,7 +23,7 @@
 }
 ```
 
-# Quick APi Testing
+# Quick API Testing
 ```
 curl -X 'POST' \
   'https://bellanderoboticssensorsresearchinnovationcenterwebsite-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_nd' \
