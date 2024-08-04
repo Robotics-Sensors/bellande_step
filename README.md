@@ -10,6 +10,18 @@
   "Bellande_Framework_Access_Key": "bellande_web_api_opensource"
 }
 ```
+# API Payload Example
+```
+{
+    "node0": [0, 0, 0],
+    "node1": [100, 100, 100],
+    "limit": 75,
+    "dimensions": 3,
+    "auth": {
+      "authorization_key": "bellande_web_api_opensource"
+    }
+}
+```
 
 # BS(Bellande Step) Algorithm API
 ## Experiment 1 -- Limit = 1
