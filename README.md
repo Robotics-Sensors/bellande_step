@@ -169,7 +169,7 @@ print("Next Step Coordinates:", next_step.coord)
 - 10D Space
 
 
-## Website
+## Website PYPI
 - https://pypi.org/project/bellande_robot_step
 
 ### Installation
