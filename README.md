@@ -7,6 +7,8 @@
 ## 🧙 Organization Github
 - [![Organization Github ](https://img.shields.io/badge/Explore%20Our-Github-0099cc?style=for-the-badge)](https://github.com/Robotics-Sensors)
 
+# Author, Creator and Maintainer
+- **Ronaldson Bellande**
 
 # API Usability
 ```
@@ -196,4 +198,4 @@ Coming Soon
 ```
 
 ## License
-This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_robots_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_robots_step/blob/main/LICENSE) for more information.
+This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) for more information.
