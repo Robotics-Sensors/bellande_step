@@ -33,7 +33,10 @@
 }
 ```
 
-# Quick API Testing
+# 🧙 Website Bellande API Testing 
+- [![Website API Testing](https://img.shields.io/badge/Bellande%20API-Testing-0099cc?style=for-the-badge)](https://bellanderoboticssensorsresearchinnovationcenterwebsite-kot42qxp.b4a.run/api/bellande_step_experiment)
+  
+# Quick Bellande API Testing
 ```
 curl -X 'POST' \
   'https://bellanderoboticssensorsresearchinnovationcenterwebsite-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_nd' \
