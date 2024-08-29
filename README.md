@@ -15,7 +15,7 @@
 # API Usability
 ```
 {
-  "url": "https://bellanderoboticssensorsresearchinnovationcenter-kot42qxp.b4a.run",
+  "url": "https://bellande-robotics-sensors-research-innovation-center.org",
   "endpoint_path": {
     "bellande_step": "/api/Bellande_Step/bellande_step_nd"
   },
@@ -41,7 +41,7 @@
 # Quick Bellande API Testing
 ```
 curl -X 'POST' \
-  'https://bellanderoboticssensorsresearchinnovationcenterwebsite-kot42qxp.b4a.run/api/Bellande_Step/bellande_step_nd' \
+  'https://bellande-robotics-sensors-research-innovation-center.org/api/Bellande_Step/bellande_step_nd' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
