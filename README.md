@@ -244,5 +244,9 @@ Required-by:
 Coming Soon
 ```
 
+## Preprint
+- [![Preprint](https://img.shields.io/badge/Preprint-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/6650ccb8afb407dc8beb0ff2/view)
+
+
 ## License
 This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) for more information.
