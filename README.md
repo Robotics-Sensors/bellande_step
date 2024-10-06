@@ -5,6 +5,12 @@
 ## Preprint
 - [![Preprint](https://img.shields.io/badge/Preprint-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/6650ccb8afb407dc8beb0ff2/view)
 
+# Preprint Citation
+```
+Bellande, R. (2024). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1] [preprint]. Mathematics.
+```
+
+
 ## 🧙 Organization Website
 - [![Organization Website](https://img.shields.io/badge/Explore%20Our-Website-0099cc?style=for-the-badge)](https://robotics-sensors.github.io)
 
