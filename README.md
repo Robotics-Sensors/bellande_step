@@ -1,5 +1,7 @@
 # 📦 Bellande Step (Infinite Dimensions)
 
+![Demo GIF](bellande_step_api_package.gif)
+
 ## Preprint
 - [![Preprint](https://img.shields.io/badge/Preprint-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/6650ccb8afb407dc8beb0ff2/view)
 
@@ -146,8 +148,13 @@ curl -X 'POST' \
 - https://robotics-sensors.github.io
 - Check out website for more information avaliable open-source API 
 
+# API via Executable
+- Infinite Space
+
+```
+bellande_step "[0, 0, 0]" "[100, 100, 100]" 75 3
+```
 # API in api_docs
-- Temporarily Enabled for OpenSource
 - 2D Space
 - 3D Space
 - 4D Space
@@ -173,7 +180,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_robot_step.bellande_robot_step_2d import bellande_step_2d, Node2D
+from bellande_step.bellande_step_2d import bellande_step_2d, Node2D
 
 # Define the nodes
 node0 = Node2D(0, 0)
@@ -196,7 +203,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_robot_step.bellande_robot_step_3d import bellande_step_3d, Node3D 
+from bellande_step.bellande_step_3d import bellande_step_3d, Node3D 
 
 # Define the nodes
 node0 = Node3D(0, 0, 0)
