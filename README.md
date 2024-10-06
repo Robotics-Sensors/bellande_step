@@ -148,7 +148,7 @@ curl -X 'POST' \
 - https://robotics-sensors.github.io
 - Check out website for more information avaliable open-source API 
 
-# API via Executable
+# Package via Executable
 - Infinite Space
 
 ```
