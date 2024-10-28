@@ -268,4 +268,4 @@ Coming Soon
 This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) for more information.
 
 ## Code of Conduct
-Bellande Step is distributed under the [CODE_OF_CONDUCT](https://github.com/Architecture-Mechanism/bellande_step/blob/main/CODE_OF_CONDUCT.md) and [NOTICE](https://github.com/Architecture-Mechanism/bellande_step/blob/main/CODE_OF_CONDUCT.md) for more information.
+Bellande Step is distributed under the [CODE_OF_CONDUCT](https://github.com/Robotics-Sensors/bellande_step/blob/main/CODE_OF_CONDUCT.md) and [NOTICE](https://github.com/Robotics-Sensors/bellande_step/blob/main/CODE_OF_CONDUCT.md) for more information.
