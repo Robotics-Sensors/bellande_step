@@ -1,5 +1,5 @@
 curl -X 'POST' \
-  'https://bellande-robotics-sensors-research-innovation-center.org/api/Bellande_Step/bellande_step_nd' \
+  'https://bellande-robotics-sensors-research-innovation-center.org/api/Bellande_Step/bellande_step' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{

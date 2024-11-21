@@ -29,24 +29,24 @@ def get_executable_path():
     
     return os.path.join(application_path, 'Bellande_Step')
 
-def run_bellande_step(coord1, coord2, limit, dimensions):
+def run_bellande_step(node0, node1, limit, dimensions):
     executable_path = get_executable_path()
     passcode = "bellande_step_executable_access_key"
 
     # Convert string representations of coordinates to actual lists
-    coord1_list = json.loads(coord1)
-    coord2_list = json.loads(coord2)
+    node0_list = json.loads(node0)
+    node1_list = json.loads(node1)
 
     # Validate input
-    if len(coord1_list) != dimensions or len(coord2_list) != dimensions:
+    if len(node1_list) != dimensions or len(node0_list) != dimensions:
         raise ValueError(f"Coordinates must have {dimensions} dimensions")
 
     # Prepare the command
     command = [
         executable_path,
         passcode,
-        json.dumps(coord1_list),
-        json.dumps(coord2_list),
+        json.dumps(node0_list),
+        json.dumps(node1_list),
         str(limit),
         str(dimensions)
     ]
@@ -54,23 +54,23 @@ def run_bellande_step(coord1, coord2, limit, dimensions):
     # Run the command
     try:
         result = subprocess.run(command, check=True, capture_output=True, text=True)
-        print("Output:", result.stdout)
+        print(result.stdout)
     except subprocess.CalledProcessError as e:
         print("Error occurred:", e)
         print("Error output:", e.stderr)
 
 def main():
-    parser = argparse.ArgumentParser(description="Run Bellande Step executable")
-    parser.add_argument("coord1", help="First coordinate as a JSON-formatted list")
-    parser.add_argument("coord2", help="Second coordinate as a JSON-formatted list")
-    parser.add_argument("limit", type=int, help="Limit for the algorithm")
-    parser.add_argument("dimensions", type=int, help="Number of dimensions")
+    parser = argparse.ArgumentParser(description="Run Bellande Step Executable")
+    parser.add_argument("--node0", help="First coordinate as a JSON-formatted list")
+    parser.add_argument("--node1", help="Second coordinate as a JSON-formatted list")
+    parser.add_argument("--limit", type=int, help="Limit for the algorithm")
+    parser.add_argument("--dimensions", type=int, help="Number of dimensions")
     
     args = parser.parse_args()
 
     run_bellande_step(
-        args.coord1,
-        args.coord2,
+        args.node0,
+        args.node1,
         args.limit,
         args.dimensions
     )
