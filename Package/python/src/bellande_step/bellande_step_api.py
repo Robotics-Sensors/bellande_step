@@ -21,7 +21,7 @@ import json
 import sys
 
 def make_bellande_step_request(node0, node1, limit, dimensions):
-    url = "https://bellande-robotics-sensors-research-innovation-center.org/api/Bellande_Step/bellande_step_nd"
+    url = "https://bellande-robotics-sensors-research-innovation-center.org/api/Bellande_Step/bellande_step"
     
     # Convert string inputs to lists if they're strings
     if isinstance(node0, str):
