@@ -186,7 +186,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_step.bellande_step_2d import bellande_step_2d, Node2D
+from bellande_step.bellande_step_2d import bellande_step_2d
 
 # Define the nodes
 node0 = Node2D(0, 0)
@@ -209,7 +209,7 @@ You want to compute the next step from `node0` towards `node1` while limiting th
 
 ```python
 # Define Import 
-from bellande_step.bellande_step_3d import bellande_step_3d, Node3D 
+from bellande_step.bellande_step_3d import bellande_step_3d
 
 # Define the nodes
 node0 = Node3D(0, 0, 0)
