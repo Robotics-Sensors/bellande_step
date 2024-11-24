@@ -148,91 +148,13 @@ curl -X 'POST' \
 | ![5D](graphs_charts/graph_charts_100/5D_Space.png) *Figure 5D* | ![6D](graphs_charts/graph_charts_100/6D_Space.png) *Figure 6D* | ![7D](graphs_charts/graph_charts_100/7D_Space.png) *Figure 7D* |
 | ![8D](graphs_charts/graph_charts_100/8D_Space.png) *Figure 8D* | ![9D](graphs_charts/graph_charts_100/9D_Space.png) *Figure 9D* | ![10D](graphs_charts/graph_charts_100/10D_Space.png) *Figure 10D* |
 
+# Bellande Step Usage
 
+## Website Crates
+- https://crates.io/crates/bellande_step
 
-# Check Out Research Organization for open-source/semi-open-source API
-- https://robotics-sensors.github.io
-- Check out website for more information avaliable open-source API 
-
-# Package via Executable
-- Infinite Space
-
-```
-bellande_step "[0, 0, 0]" "[100, 100, 100]" 75 3
-```
-# API in api_docs
-- 2D Space
-- 3D Space
-- 4D Space
-- 5D Space
-- 6D Space
-- 7D Space
-- 8D Space
-- 9D Space
-- 10D Space
-
-
-# Can also checkout portion of the docs at [Portion API DOCS](https://github.com/Robotics-Sensors/bellande_robots_step/blob/main/api_docs.md)
-### ✔️ confirmed versions
-- `The step function efficiently computes the next step towards a target node within a specified distance limit.`
-
-## Usage 2D Space
-
-Suppose you have two nodes representing positions in a 2D space:
-- `node0` at coordinates `(0, 0)`
-- `node1` at coordinates `(5, 5)`
-
-You want to compute the next step from `node0` towards `node1` while limiting the maximum distance to 3 units.
-
-```python
-# Define Import 
-from bellande_step.bellande_step_2d import bellande_step_2d
-
-# Define the nodes
-node0 = Node2D(0, 0)
-node1 = Node2D(5, 5)
-
-# Compute the next step within a distance limit of 3 units
-next_step = bellande_step_2d(node0, node1, limit=3)
-
-# Output the coordinates of the next step
-print("Next Step Coordinates:", next_step.coord) 
-```
-
-## Usage 3D Space
-
-Suppose you have two nodes representing positions in a 3D space:
-- `node0` at coordinates `(0, 0, 0)`
-- `node1` at coordinates `(5, 5, 5)`
-
-You want to compute the next step from `node0` towards `node1` while limiting the maximum distance to 3 units.
-
-```python
-# Define Import 
-from bellande_step.bellande_step_3d import bellande_step_3d
-
-# Define the nodes
-node0 = Node3D(0, 0, 0)
-node1 = Node3D(5, 5, 5)
-
-# Compute the next step within a distance limit of 3 units
-next_step = bellande_step_3d(node0, node1, limit=3)
-
-# Output the coordinates of the next step
-print("Next Step Coordinates:", next_step.coord)
-```
-
-### Avaliable
-- 2D Space
-- 3D Space
-- 4D Space
-- 5D Space
-- 6D Space
-- 7D Space
-- 8D Space
-- 9D Space
-- 10D Space
-
+### Installation
+- `cargo add bellande_step`
 
 ## Website PYPI
 - https://pypi.org/project/bellande_robot_step
@@ -251,7 +173,6 @@ Home-page: github.com/RonaldsonBellande/bellande_robot_step
 Author: Ronaldson Bellande
 Author-email: ronaldsonbellande@gmail.com
 License: GNU General Public License v3.0
-Requires: numpy
 Required-by:
 ```
 
