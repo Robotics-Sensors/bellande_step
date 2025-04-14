@@ -17,7 +17,7 @@ use reqwest;
 use serde_json::{json, Value};
 use std::error::Error;
 use std::path::{Path, PathBuf};
-use std::process::{self, Command};
+use std::process::Command;
 use structopt::StructOpt;
 
 #[derive(StructOpt, Debug)]
@@ -39,7 +39,7 @@ struct Opt {
     use_executable: bool,
 }
 
-async fn make_bellande_step_request(
+pub async fn make_bellande_step_request(
     node0: Value,
     node1: Value,
     limit: i32,
@@ -71,17 +71,15 @@ async fn make_bellande_step_request(
     Ok(response)
 }
 
-fn get_executable_path() -> PathBuf {
+pub fn get_executable_path() -> PathBuf {
     if cfg!(target_os = "windows") {
-        Path::new(env!("CARGO_MANIFEST_DIR"))
-            .join("Bellande_Step.exe")
+        Path::new(env!("CARGO_MANIFEST_DIR")).join("Bellande_Step.exe")
     } else {
-        Path::new(env!("CARGO_MANIFEST_DIR"))
-            .join("Bellande_Step")
+        Path::new(env!("CARGO_MANIFEST_DIR")).join("Bellande_Step")
     }
 }
 
-fn run_bellande_step_executable(
+pub fn run_bellande_step_executable(
     node0: &str,
     node1: &str,
     limit: i32,
@@ -119,43 +117,7 @@ fn run_bellande_step_executable(
         Err(format!(
             "Process failed: {}",
             String::from_utf8_lossy(&output.stderr)
-        ).into())
+        )
+        .into())
     }
-}
-
-#[tokio::main]
-async fn main() -> Result<(), Box<dyn Error>> {
-    let opt = Opt::from_args();
-
-    // Parse JSON strings to Values for validation
-    let node0: Value = serde_json::from_str(&opt.node0)
-        .map_err(|e| format!("Error parsing node0: {}", e))?;
-    let node1: Value = serde_json::from_str(&opt.node1)
-        .map_err(|e| format!("Error parsing node1: {}", e))?;
-
-    if opt.use_executable {
-        // Run using local executable
-        if let Err(e) = run_bellande_step_executable(
-            &opt.node0,
-            &opt.node1,
-            opt.limit,
-            opt.dimensions,
-        ) {
-            eprintln!("Error: {}", e);
-            process::exit(1);
-        }
-    } else {
-        // Run using API
-        match make_bellande_step_request(node0, node1, opt.limit, opt.dimensions).await {
-            Ok(result) => {
-                println!("{}", serde_json::to_string_pretty(&result)?);
-            }
-            Err(e) => {
-                eprintln!("Error: {}", e);
-                process::exit(1);
-            }
-        }
-    }
-
-    Ok(())
 }
