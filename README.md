@@ -2,12 +2,12 @@
 
 ![Demo GIF](bellande_step_api_package.gif)
 
-## Preprint
-- [![Preprint](https://img.shields.io/badge/Preprint-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/6650ccb8afb407dc8beb0ff2/view)
+## Published Paper
+- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
 
-# Preprint Citation
+# Published Citation
 ```
-Bellande, R. (2024). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1] [preprint]. Mathematics.
+Bellande, R. (2025). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1]. Robotics.
 ```
 
 
@@ -175,12 +175,7 @@ License: GNU General Public License v3.0
 ```
 
 ## Published Paper
-```
-Coming Soon
-```
-
-## Preprint
-- [![Preprint](https://img.shields.io/badge/Preprint-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/6650ccb8afb407dc8beb0ff2/view)
+- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
 
 
 ## License
