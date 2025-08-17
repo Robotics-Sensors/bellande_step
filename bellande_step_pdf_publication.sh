@@ -1,0 +1,1 @@
+cp ~/Desktop/Resources_Documents/research_journal_paper_book_legal_resources/bellande_research_papers/bellande_step/bellande_step.pdf .
