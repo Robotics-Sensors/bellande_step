@@ -4,6 +4,7 @@
 
 ## Published Paper
 - [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
+- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://www.researchgate.net/publication/394263258_Efficient_Step_Function_for_Infinite_Multi-Dimensional_Node_Calculation_within_Model-Integrated_Dimensional_Space)
 
 # Published Citation
 ```
@@ -172,11 +173,6 @@ Author: Ronaldson Bellande
 Author-email: ronaldsonbellande@gmail.com
 License: GNU General Public License v3.0
 ```
-
-## Published Paper
-- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
-- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://www.researchgate.net/publication/394263258_Efficient_Step_Function_for_Infinite_Multi-Dimensional_Node_Calculation_within_Model-Integrated_Dimensional_Space)
-
 
 ## License
 This Algorithm or Models is distributed under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/), see [LICENSE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) and [NOTICE](https://github.com/RonaldsonBellande/bellande_step/blob/main/LICENSE) for more information.
