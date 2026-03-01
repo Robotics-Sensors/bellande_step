@@ -3,8 +3,8 @@
 ![Demo GIF](bellande_step_api_package.gif)
 
 ## Published Paper
-- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
-- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://www.researchgate.net/publication/394263258_Efficient_Step_Function_for_Infinite_Multi-Dimensional_Node_Calculation_within_Model-Integrated_Dimensional_Space)
+- [![Published Paper](https://img.shields.io/badge/Published_Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
+- [![Published Paper](https://img.shields.io/badge/Published_Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://www.researchgate.net/publication/394263258_Efficient_Step_Function_for_Infinite_Multi-Dimensional_Node_Calculation_within_Model-Integrated_Dimensional_Space)
 
 # Published Citation
 ```
