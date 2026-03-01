@@ -10,7 +10,6 @@
 Bellande, R. (2025). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1]. Robotics.
 ```
 
-
 ## 🧙 Organization Website
 - [![Organization Website](https://img.shields.io/badge/Explore%20Our-Website-0099cc?style=for-the-badge)](https://robotics-sensors.github.io)
 
@@ -176,6 +175,7 @@ License: GNU General Public License v3.0
 
 ## Published Paper
 - [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://dapp.orvium.io/deposits/68587a985eeed4f3763b0c12/view)
+- [![Published Paper](https://img.shields.io/badge/Published-Paper-Bellande%20Step-0099cc?style=for-the-badge)](https://www.researchgate.net/publication/394263258_Efficient_Step_Function_for_Infinite_Multi-Dimensional_Node_Calculation_within_Model-Integrated_Dimensional_Space)
 
 
 ## License
