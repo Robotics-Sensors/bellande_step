@@ -8,7 +8,7 @@
 
 # Published Citation
 ```
-Bellande, R. (2025). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1]. Robotics.
+Bellande, R. (2025). Efficient Step Function for Infinite Multi-Dimensional Node Calculation within Model-Integrated Dimensional Space [version 1].
 ```
 
 ## 🧙 Organization Website
